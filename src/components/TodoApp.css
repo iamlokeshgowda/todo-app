@@ -1,0 +1,100 @@
+.bb{
+    background: url(./images/back5.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.todo{
+    align-self: center;
+    color: #000;
+    margin: 0 20%;
+    
+}
+.todo .heading{
+    background: yellow;
+    font-size: 3rem;
+    border: 3px solid #bdb5b5;
+    border-radius: 16px;
+    display: inline-flex;
+    padding: 10px 20px;
+}
+.todo input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: 2px dashed #fff;
+    min-width: 400px;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.todo input::placeholder {
+    color:#fff;
+    font-size: 1.3rem;
+}
+.todo input:hover {
+    outline: none;
+    border-bottom: 2px dotted fff;
+}
+
+.todo .add-btn{
+    padding: 10px;
+    border-radius: 30%;
+    color: black;
+    font-size: 1.2rem;
+    background-color: yellow;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 3px solid #bdb5b5;
+}
+.todo .add-btn:hover{
+    padding: 13px;
+    font-size: 1.3rem;
+}
+
+.todo ul{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.todo ul li{
+    list-style: none;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: rgb(236, 236, 236, 0.6);
+    font-family: "Permanent Marker", cursive;
+}
+.todo ul li .listItem{
+    text-decoration: none;
+    color: #000;
+}
+
+.todo ul li .delete{
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.todo ul li .completed{
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    margin-left: 10px;
+    color: white;
+}
+.todo .crossText{
+    text-decoration: line-through;
+    color: red;
+}
